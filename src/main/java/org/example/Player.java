@@ -20,7 +20,7 @@ private Weapon weapon;
 
         this.weapon = weapon;
     }
-    public int healthRemaining(int healthPercentage){
+    public int healthRemaining(){
         return healthPercentage;
     }
     public void loseHealth(int damage) {
